@@ -1,0 +1,61 @@
+                            /* ASPECT GENERAL */
+body {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    color: white;
+}
+
+
+                            /* PRESENTATION */
+.conteneur {   
+    padding: 10%;
+    text-align: center;
+}
+
+.titre_acceuil {
+}
+
+.logo_acceuil {
+    max-height: 100px;
+    max-width: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_acceuil {
+    text-shadow: black;
+}
+
+                            /* BAS DE PAGE */
+.menu {
+    text-align: center;
+}
+
+.menu_content {
+    max-height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid 1px white;
+    padding: 15px;
+    margin-left: 0px;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+                            /* BAS DE PAGE */
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
