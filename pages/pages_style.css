@@ -32,8 +32,8 @@ body {
 }
 
 .image {
-    max-height: 200px;
-    max-width: inherit;
+    max-width: 100%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,4 +52,12 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+                    /* ---- ADAPTATION MOBILE ---- */
+@media only screen and (max-width: 460px) {
+
+    .image {
+        max-width: 75px;
+        height: auto;
 }
