@@ -1,0 +1,55 @@
+                         /* ----  ASPECT GENERAL  ---- */
+
+/* ---- BACKGROUND ET COULEUR ---- */
+body {
+    color: white;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+}
+
+                        /* ----    CLOSE     ---- */
+    
+.close {
+    max-height: 50px;
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.close:hover {
+    background-color: #dc5523;
+}
+
+                        /* ----  PRESENTATION  ---- */
+.conteneur {   
+    padding: 5%;
+    text-align: center;
+}
+
+.titre_acceuil {
+}
+
+.image {
+    max-height: 200px;
+    max-width: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.text_acceuil {
+    text-shadow: black;
+}
+
+                        /* ---- BAS DE PAGE ---- */
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

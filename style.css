@@ -1,0 +1,99 @@
+                        /* ----  ASPECT GENERAL  ---- */
+
+/* ---- BACKGROUND ET COULEUR ---- */
+body {
+    color: white;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+}
+
+
+                        /* ----  PRESENTATION  ---- */
+.conteneur {   
+    padding: 10%;
+    text-align: center;
+}
+
+.titre_acceuil {
+}
+
+.logo_acceuil {
+    max-height: 100px;
+    max-width: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_acceuil {
+    text-shadow: black;
+}
+
+                        /* ----    MENU     ---- */
+/* ---- TOUS ---- */
+.menu {
+    text-align: center;
+}
+
+/* ---- BOITE DU CENTRE ---- */
+
+.menu_content {
+    max-height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid 1px white;
+    padding: 15px;
+    margin-left: -4px;
+}
+.menu_content:hover {
+    background-color: black;
+}
+
+/* ---- BOITE DE GAUCHE ---- */
+.menu_content_left {
+    max-height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid 1px white;
+    padding: 15px;
+    margin-left: -4px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menu_content_left:hover {
+    background-color: black;
+}
+
+/* ---- BOITE DE DROITE ---- */
+.menu_content_right {
+    max-height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: solid 1px white;
+    padding: 15px;
+    margin-left: -4px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu_content_right:hover {
+    background-color: black;
+}
+
+/* ---- LIEN INTÉRIEUR ---- */
+.menu_link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+                           
+
+                        /* ---- BAS DE PAGE ---- */
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
