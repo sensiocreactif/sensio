@@ -2,9 +2,12 @@
 
 /* ---- BACKGROUND ET COULEUR ---- */
 body {
-    color: white;
+    color: black;
     background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
     background-position: top;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
                         /* ----    CLOSE     ---- */
@@ -16,6 +19,7 @@ body {
     top: 5%;
     background-color: white;
     opacity: 0.8;
+    border-radius: 15px;
 }
 
 .close:hover {
@@ -24,11 +28,14 @@ body {
 
                         /* ----  PRESENTATION  ---- */
 .conteneur {   
-    padding: 5%;
     text-align: center;
+    padding: 5%;
+    margin-top: 28%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
     background-color: white;
-    border: solid 3px;
-    border-radius: 15px;
+    color: black;
 }
 
 .titre_acceuil {
@@ -41,7 +48,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
-    padding-bottom: 5%
+    padding-bottom: 5%;
 }
 
 .text_acceuil {
