@@ -8,6 +8,36 @@
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
     <link rel="stylesheet" href="pages_style.css">
 </head>
+
+<style>
+    /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #dc5523;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: black;
+}
+</style>
+
 <body>
     <!-- MENU RAPIDE -->
     <div class="menu_rapid">
@@ -24,16 +54,34 @@
     <div class="conteneur">
         <a href="../index.html"><img class="close" src="../img/close.png"></a>
         <h1 class="titre_acceuil">CONTACTEZ NOUS</h1>
-        <p class="text_acceuil">bla bla bla, bla bla bla bla</p>
-        <p>
-            Bla-bla-bla
-        </p>
+
+        <!-- FORMULAIRE -->
+
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">Nom</label>
+              <input type="text" id="fname" name="firstname" placeholder="Votre nom..">
+
+              <br>
+          
+              <label for="lname">Prenom</label>
+              <input type="text" id="lname" name="lastname" placeholder="Votre prenom..">
+
+              <br>
+          
+              <label for="subject">Votre message</label>
+              <textarea id="subject" name="subject" placeholder="Votre message.." style="height:200px"></textarea>
+          
+                <br>
+
+              <input type="submit" value="Envoyer">
+            </form>
     </div> 
-    
+
     <!-- BAS DE PAGE -->
     <footer class="footer">
-        <p class="copyright">&copy;CREACTIF 2019</p>
-    </footer>
+            <p class="copyright">&copy;CREACTIF 2019 - <a class="mention" href="../mentions.html">Montions légals</a></p>
+        </footer>
 
 </body>
 </html>
