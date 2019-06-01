@@ -8,6 +8,27 @@
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
     <link rel="stylesheet" href="pages_style.css">
 </head>
+<style>
+    .liste {
+        display: inline;
+    }
+    .lister {
+        display: flex;
+        text-align: center;
+    }
+    .corpo {
+        max-width: 180px;
+        margin: 0px;
+        transition-duration: 0.2s;
+    }
+    .corpo:hover {
+        opacity: 0.2;
+    }
+
+    #kil:hover {
+        background-image: url(../img/kilh.png);
+    }
+</style>
 <body>
     <!-- MENU RAPIDE -->
         <div class="menu_rapid">
@@ -24,21 +45,37 @@
     <div class="conteneur">
         <a href="../index.html"><img class="close" src="../img/close.png"></a>
         <h1 class="titre_acceuil">A propos de nous</h1>
-        <p class="text_acceuil">bla bla bla, bla bla bla bla</p>
+        <p class="text_acceuil">Sensio a été formé par 4 passioné d'audiovisuel reunit autour de projets communs et ambitieux dont la plateforme Créactif.</p>
         
-        <video width="320" height="240" autoplay>
+        <video width="768" height="576" autoplay>
             <source src="../movie.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
-        <p>
-            Bla-bla-bla
-        </p>
+        <div class="lister">
+            <div style="max-width: 180px; padding: 15px"><h2 style="color: #dc5523">Killian Herbert</h2>
+                <p>Chef de la photographie</p></div>
+            <div style="max-width: 180px; padding: 15px"><h2 style="color: #dc5523">Thibaut Renckly</h2>
+                <p>Responsable marketing et gestion</p></div>
+            <div style="max-width: 180px; padding: 15px"><h2 style="color: #dc5523">Lucas Pierre</h2>
+                <p>Chef de la vidéo</p></div>
+            <div style="max-width: 180px; padding: 15px"><h2 style="color: #dc5523">Emilien Graffe</h2>
+                <p>Chef de rédaction</p></div>
+            
+        </div>
+
+        <div class="liste">
+            <a href=""><img class="corpo" src="../img/killian.png"></a>
+            <a href=""><img class="corpo" src="../img/tibo.png"></a>
+            <a href="https://onemillion.media"><img class="corpo" src="../img/lucas.png"></a>
+            <a href="https://emiliengraffe.fr"><img class="corpo" src="../img/emilien.png"></a>
+        </div>
+        
     </div> 
     
     <!-- BAS DE PAGE -->
     <footer class="footer">
-            <p class="copyright">&copy;CREACTIF 2019 - <a class="mention" href="../mentions.html">Montions légals</a></p>
+            <p class="copyright">&copy;SENSIO 2019 - <a class="mention" href="../mentions.html">Montions légals</a></p>
         </footer>
 
 </body>
